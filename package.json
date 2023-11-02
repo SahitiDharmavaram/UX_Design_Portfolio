@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/SahitiDharmavaram/UX_Design_Portfolio",
+  "homepage": "https://sahitidharmavaram.github.io/portfolio",
   "name": "developer-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -39,18 +39,16 @@
     ]
   },
   "browserslist": {
-  "production": [
-      "chrome >= 67",
-      "edge >= 79",
-      "firefox >= 68",
-      "opera >= 54",
-      "safari >= 14" 
-  ]
-  "development": [
-    "last 1 chrome version",
-    "last 1 firefox version",
-    "last 1 safari version"
-  ]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "description": "<p align=\"center\">\r <img src=\"https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg\" alt=\"\" width=\"450px\"/>\r </p>",
   "main": "index.js",
@@ -60,7 +58,6 @@
     "react": "^18.2.0",
     "react-dom": "^17.0.2"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC"

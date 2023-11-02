@@ -1,9 +1,0 @@
-# Example netlify.toml file
-[build]
-  command = "npm run build"  # The build command for your project
-  publish = "public"          # The directory to deploy (usually the output of your build process)
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
